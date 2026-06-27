@@ -2,23 +2,26 @@
 
 **Minor Project Report**
 
-**Submitted By:** Mohd Aatir
-**Course:** Master of Computer Applications (MCA)
+**Submitted By:** Mohd Aatir  
+**Course:** Master of Computer Applications (MCA)  
+**Institution:** KIET Group of Institutions, Delhi-NCR
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-* [Title](#title)
-* [Problem Statement](#problem-statement)
-* [Objectives](#objectives)
-* [Dataset](#dataset)
-* [Technologies Used](#technologies-used)
-* [Methodology](#methodology)
-* [Results](#results)
-* [Conclusion](#conclusion)
-* [How to Run the Project](#how-to-run-the-project)
-* [References](#references)
+- [Title](#title)
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Dataset](#dataset)
+- [Technologies Used](#technologies-used)
+- [Methodology](#methodology)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Project Report](#project-report)
+- [How to Run the Project](#how-to-run-the-project)
+- [References](#references)
+- [Author](#author)
 
 ---
 
@@ -40,30 +43,30 @@ The objective of this project is to develop a supervised machine learning model 
 
 The primary objectives of this project are:
 
-* Study the Breast Cancer Wisconsin Diagnostic Dataset.
-* Preprocess and prepare the dataset for machine learning.
-* Perform Exploratory Data Analysis (EDA).
-* Train multiple supervised machine learning models.
-* Evaluate each model using standard performance metrics.
-* Compare the performance of all models and identify the best-performing algorithm.
+- Study the Breast Cancer Wisconsin Diagnostic Dataset.
+- Preprocess and prepare the dataset for machine learning.
+- Perform Exploratory Data Analysis (EDA).
+- Train multiple supervised machine learning models.
+- Evaluate each model using standard performance metrics.
+- Compare the performance of all models and identify the best-performing algorithm.
 
 ---
 
 ## Dataset
 
-The project uses the **Breast Cancer Wisconsin (Diagnostic) Dataset**, downloaded from Kaggle.
+This project uses the **Breast Cancer Wisconsin (Diagnostic) Dataset**, obtained from the Kaggle repository.
 
-**Dataset Source:**
+**Dataset Source:**  
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ### Dataset Information
 
-| Attribute       | Value                     |
-| --------------- | ------------------------- |
-| Total Records   | **569**                   |
-| Features        | **30**                    |
-| Target Variable | **Diagnosis**             |
-| Classes         | Benign (B), Malignant (M) |
+| Attribute | Value |
+|-----------|-------|
+| Total Records | **569** |
+| Features | **30** |
+| Target Variable | **Diagnosis** |
+| Classes | **Benign (B), Malignant (M)** |
 
 ---
 
@@ -71,13 +74,13 @@ https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 The following technologies and libraries were used during the development of this project:
 
-* Python
-* Jupyter Notebook
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
-* Joblib
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Joblib
 
 ---
 
@@ -96,28 +99,26 @@ The project follows the workflow below:
 9. Split the dataset into training and testing sets.
 10. Apply feature scaling using **StandardScaler**.
 11. Train the following supervised learning models:
-
-    * Logistic Regression
-    * Decision Tree
-    * Random Forest
-    * Support Vector Machine (SVM)
+   - Logistic Regression
+   - Decision Tree
+   - Random Forest
+   - Support Vector Machine (SVM)
 12. Evaluate each model using:
-
-    * Accuracy Score
-    * Classification Report
-    * Confusion Matrix
+   - Accuracy Score
+   - Classification Report
+   - Confusion Matrix
 13. Compare the performance of all models.
 
 ---
 
 ## Results
 
-| Model                            |   Accuracy |
-| -------------------------------- | ---------: |
+| Model | Accuracy |
+|-------|---------:|
 | **Support Vector Machine (SVM)** | **98.25%** |
-| Logistic Regression              | **97.37%** |
-| Random Forest                    | **96.49%** |
-| Decision Tree                    | **94.74%** |
+| Logistic Regression | **97.37%** |
+| Random Forest | **96.49%** |
+| Decision Tree | **94.74%** |
 
 The **Support Vector Machine (SVM)** achieved the highest accuracy (**98.25%**) and demonstrated the best overall classification performance on the testing dataset.
 
@@ -133,18 +134,24 @@ The results indicate that machine learning can effectively assist healthcare pro
 
 ---
 
+## Project Report
+
+A detailed project report is available in the **report** folder of this repository. The report contains the complete project documentation, including methodology, dataset analysis, exploratory data analysis, implementation details, model evaluation, comparison of results, screenshots, and conclusions.
+
+---
+
 ## How to Run the Project
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/aatircodes/Summer-Internship-AIML-Minor-Project-1.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd your-repository
+cd Summer-Internship-AIML-Minor-Project-1
 ```
 
 ### 3. Install the required dependencies
@@ -161,30 +168,31 @@ jupyter notebook
 
 ### 5. Open the notebook
 
-Open the notebook inside the `notebook` folder and run all cells sequentially to reproduce the complete workflow.
+Open **Breast_Cancer_Prediction.ipynb** inside the **notebook** folder and run all cells sequentially to reproduce the complete workflow.
 
 ---
 
 ## References
 
-1. Breast Cancer Wisconsin (Diagnostic) Dataset (Kaggle)
+1. Breast Cancer Wisconsin (Diagnostic) Dataset (Kaggle)  
    https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
-2. Scikit-learn Documentation
+2. Scikit-learn Documentation  
    https://scikit-learn.org/
 
-3. Pandas Documentation
+3. Pandas Documentation  
    https://pandas.pydata.org/
 
-4. NumPy Documentation
+4. NumPy Documentation  
    https://numpy.org/
 
-5. Matplotlib Documentation
+5. Matplotlib Documentation  
    https://matplotlib.org/
 
 ---
 
 ## Author
 
-**Mohd Aatir**
-**Master of Computer Applications (MCA)**
+**Name:** Mohd Aatir
+
+**Course:** Master of Computer Applications (MCA)
